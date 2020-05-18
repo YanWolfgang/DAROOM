@@ -3044,3 +3044,68 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.18-15.35.51:473][264]AssetCheck: New page: Asset Save: multiple assets
 [2020.05.18-15.35.51:473][264]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/DAROOM.DAROOM
 [2020.05.18-15.35.51:473][264]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/DAROOM_BuiltData.DAROOM_BuiltData
+[2020.05.18-15.40.48:500][865]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.18-15.40.48:513][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
+[2020.05.18-15.40.48:514][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.18-15.40.48:514][865]PIE: New page: PIE session: DAROOM (18 may. 2020 5:40:48)
+[2020.05.18-15.40.48:514][865]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM
+[2020.05.18-15.40.48:545][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030823s)
+[2020.05.18-15.40.48:547][865]LogAIModule: Creating AISystem for world DAROOM
+[2020.05.18-15.40.48:547][865]LogPlayLevel: PIE: World Init took: (0.002031s)
+[2020.05.18-15.40.48:547][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DAROOM.DAROOM to /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM.DAROOM (0.033312s)
+[2020.05.18-15.40.48:582][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.05.18-15.40.48:584][865]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.18-15.40.48:584][865]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.18-15.40.48:584][865]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.18-15.40.48:584][865]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.18-15.40.48:584][865]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.18-15.40.48:584][865]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.18-15.40.48:584][865]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.18-15.40.48:584][865]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.18-15.40.48:584][865]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.18-15.40.48:585][865]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.18-15.40.48:960][865]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.18-15.40.48:960][865]LogAudioMixer: Display: Name: Altavoces / Auriculares (2- Realtek Audio)
+[2020.05.18-15.40.48:960][865]LogAudioMixer: Display: Is Default: Yes
+[2020.05.18-15.40.48:960][865]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.18-15.40.48:960][865]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.18-15.40.48:960][865]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.18-15.40.48:960][865]LogAudioMixer: Display: Channel Order:
+[2020.05.18-15.40.48:960][865]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.18-15.40.48:960][865]LogAudioMixer: Display: 1: FrontRight
+[2020.05.18-15.40.49:179][865]LogAudioMixer: Display: Using Audio Device Altavoces / Auriculares (2- Realtek Audio)
+[2020.05.18-15.40.49:181][865]LogInit: FAudioDevice initialized.
+[2020.05.18-15.40.49:192][865]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.05.18-15.40.49:197][865]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM.DAROOM up for play (max tick rate 0) at 2020.05.18-10.40.49
+[2020.05.18-15.40.49:197][865]LogWorld: Bringing up level for play took: 0.004403
+[2020.05.18-15.40.49:198][865]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.05.18-15.40.49:200][865]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM 1.068
+[2020.05.18-15.40.49:201][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
+[2020.05.18-15.41.18:705][ 61]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.18-15.41.18:705][ 61]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.18-15.41.18:706][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
+[2020.05.18-15.41.18:706][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.18-15.41.18:706][ 61]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM
+[2020.05.18-15.41.18:706][ 61]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.18-15.41.18:707][ 61]LogWorld: UWorld::CleanupWorld for DAROOM, bSessionEnded=true, bCleanupResources=true
+[2020.05.18-15.41.18:707][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.18-15.41.18:722][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.18-15.41.18:722][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
+[2020.05.18-15.41.18:727][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.18-15.41.18:775][ 61]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.18-15.41.18:784][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.18-15.41.18:788][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.05.18-15.41.18:820][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.05.18-15.41.26:044][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.05.18-15.41.26:380][701]LogSavePackage: Moving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/Saved/DAROOMBC0E70A34F4A949004FAE1802CE98F1A.tmp' to '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap'
+[2020.05.18-15.41.27:014][701]LogSavePackage: Moving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/Saved/DAROOM_BuiltDataEE96A6304D7A1B242D1A509938D84A57.tmp' to '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM_BuiltData.uasset'
+[2020.05.18-15.41.27:074][701]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.18-15.41.27:074][701]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/DAROOM.DAROOM
+[2020.05.18-15.41.27:074][701]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/DAROOM_BuiltData.DAROOM_BuiltData
+[2020.05.18-15.43.29:823][217]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2020.05.18-15.43.29:946][217]LogSlate: Window 'DAROOM - Unreal Editor' being destroyed
+[2020.05.18-15.43.29:951][217]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.18-15.43.30:318][218]Cmd: QUIT_EDITOR
+[2020.05.18-15.43.30:318][218]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.05.18-15.43.30:338][218]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.18-15.43.30:338][218]LogAudioMixer: Display: No commands were queued while flushing the source manager.
