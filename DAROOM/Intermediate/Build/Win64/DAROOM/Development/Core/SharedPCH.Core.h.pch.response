@@ -30,17 +30,17 @@
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I "D:\softwares\Visual Studio 2017\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\8.1\include\shared"
-/I "C:\Program Files (x86)\Windows Kits\8.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\8.1\include\winrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
 /D_HAS_EXCEPTIONS=0
-/I "D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core"
-/Yc"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core\SharedPCH.Core.h"
-/Fp"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core\SharedPCH.Core.h.pch"
-"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core\SharedPCH.Core.cpp"
-/Fo"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core\SharedPCH.Core.h.obj"
+/I "D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core"
+/Yc"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core\SharedPCH.Core.h"
+/Fp"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core\SharedPCH.Core.h.pch"
+"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core\SharedPCH.Core.cpp"
+/Fo"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\DAROOM\DAROOM\Intermediate\Build\Win64\DAROOM\Development\Core\SharedPCH.Core.h.obj"
 /TP
 /GR-
 /W4
