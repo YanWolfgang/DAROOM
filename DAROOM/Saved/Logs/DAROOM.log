@@ -737,3 +737,19 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.20-16.30.42:814][368]SourceControl: Commited [Prueba 6a74359] cambio triangulos en prueba.
 [2020.05.20-16.30.55:872][954]LogSlate: Window 'Message Log' being destroyed
 [2020.05.20-16.30.55:896][954]LogSlate: Window 'Message Log' being destroyed
+[2020.05.20-16.33.23:121][436]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Barry.Barry
+[2020.05.20-16.33.23:909][436]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2020.05.20-16.33.26:301][436]LogSlate: Took 0.012289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.20-16.33.26:987][437]LogSlate: Took 0.015742 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.20-16.33.29:051][522]LogSlate: Window 'Barry' being destroyed
+[2020.05.20-16.33.29:125][522]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-16.33.29:125][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-16.33.37:009][946]SourceControl: fatal: D:/softwares/raiman/UE_4.24/Engine/Content: 'D:/softwares/raiman/UE_4.24/Engine/Content' is outside repository at 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM'
+[2020.05.20-16.33.37:522][946]EditorErrors: Warning: No assets to check in!
+[2020.05.20-16.34.10:511][223]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.05.20-16.34.10:985][223]LogSavePackage: Moving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/DAROOMCA45B62D4CB887D67CA44CBE5F408BF8.tmp' to '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap'
+[2020.05.20-16.34.11:998][223]LogSavePackage: Moving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/DAROOM_BuiltData32A516734B5F1F6B82A967ACCE1A1CB3.tmp' to '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM_BuiltData.uasset'
+[2020.05.20-16.34.12:099][223]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-16.34.12:099][223]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/DAROOM.DAROOM
+[2020.05.20-16.34.12:099][223]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/DAROOM_BuiltData.DAROOM_BuiltData
+[2020.05.20-16.34.27:386][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
