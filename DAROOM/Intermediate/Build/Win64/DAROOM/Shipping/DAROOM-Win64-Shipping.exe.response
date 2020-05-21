@@ -62,14 +62,6 @@
 "D:\softwares\raiman\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Shipping\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "D:\softwares\raiman\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Shipping\Launch\Module.Launch.cpp.obj"
 "D:\softwares\raiman\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Shipping\Launch\PCLaunch.rc.res"
-"D:\softwares\raiman\UE_4.24\Engine\Plugins\Developer\Concert\MultiUserClient\Intermediate\Build\Win64\UE4\Shipping\MultiUserClientLibrary\Module.MultiUserClientLibrary.cpp.obj"
-"D:\softwares\raiman\UE_4.24\Engine\Plugins\Developer\Concert\MultiUserClient\Intermediate\Build\Win64\UE4\Shipping\MultiUserClientLibrary\Module.MultiUserClientLibrary.gen.cpp.obj"
-"D:\softwares\raiman\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Shipping\Core\SharedPCH.Core.ShadowErrors.NoUndef.h.obj"
-"D:\softwares\raiman\UE_4.24\Engine\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\UE4\Shipping\SQLiteCore\SQLiteCore.cpp.obj"
-"D:\softwares\raiman\UE_4.24\Engine\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\UE4\Shipping\SQLiteCore\SQLiteDatabase.cpp.obj"
-"D:\softwares\raiman\UE_4.24\Engine\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\UE4\Shipping\SQLiteCore\SQLiteEmbeddedPlatform.cpp.obj"
-"D:\softwares\raiman\UE_4.24\Engine\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\UE4\Shipping\SQLiteCore\SQLitePreparedStatement.cpp.obj"
-"D:\softwares\raiman\UE_4.24\Engine\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\UE4\Shipping\SQLiteCore\SQLiteEmbedded.c.obj"
 "D:\softwares\raiman\UE_4.24\Engine\Plugins\Marketplace\Substance\Intermediate\Build\Win64\UE4\Shipping\SubstanceCore\PCH.SubstanceCore.h.obj"
 "D:\softwares\raiman\UE_4.24\Engine\Plugins\Marketplace\Substance\Intermediate\Build\Win64\UE4\Shipping\SubstanceCore\Module.SubstanceCore.cpp.obj"
 "D:\softwares\raiman\UE_4.24\Engine\Plugins\Marketplace\Substance\Intermediate\Build\Win64\UE4\Shipping\SubstanceCore\Module.SubstanceCore.gen.cpp.obj"
@@ -642,7 +634,6 @@
 "dwmapi.lib"
 "imm32.lib"
 "uiautomationcore.lib"
-"D:\softwares\raiman\UE_4.24\Engine\Source\ThirdParty\ICU\icu4c-64_1\lib\Win64\VS2015\Release\icu.lib"
 "D:\softwares\raiman\UE_4.24\Engine\Plugins\Marketplace\Substance\Source\SubstanceEngine/../../Libs/Release/Win64/pfxlinkercommon.lib"
 "D:\softwares\raiman\UE_4.24\Engine\Plugins\Marketplace\Substance\Source\SubstanceEngine/../../Libs/Release/Win64/algcompression.lib"
 "D:\softwares\raiman\UE_4.24\Engine\Plugins\Marketplace\Substance\Source\SubstanceEngine/../../Libs/Release/Win64/tinyxml.lib"
@@ -710,6 +701,7 @@
 "D:\softwares\raiman\UE_4.24\Engine\Plugins\Media\WebMMedia\Source\ThirdParty\webm/lib/Win64/VS2015\libwebm.lib"
 "ThirdParty/IntelTBB/IntelTBB-2019u8/lib/Win64/vc14/tbbmalloc.lib"
 "ThirdParty/IntelVTune/VTune-2017/lib/Win64/libittnotify.lib"
+"D:\softwares\raiman\UE_4.24\Engine\Source\ThirdParty\ICU\icu4c-64_1\lib\Win64\VS2015\Release\icu.lib"
 "ThirdParty/Windows/DirectX/Lib/x64/XInput.lib"
 "ThirdParty/FreeType2\FreeType2-2.10.0\lib\Win64\VS2015\Release\freetype.lib"
 "ThirdParty/HarfBuzz\harfbuzz-2.4.0\lib\Win64\VS2015\Release\harfbuzz.lib"
@@ -725,8 +717,6 @@
 /OUT:"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\DAROOM\DAROOM\Binaries\Win64\DAROOM-Win64-Shipping.exe"
 /PDB:"D:\Escritorio\6 Semestre\diseño web\unigithub\Wolfgang\DAROOM\DAROOM\DAROOM\DAROOM\Binaries\Win64\DAROOM-Win64-Shipping.pdb"
 /ignore:4078
-/INCLUDE:IMPLEMENT_MODULE_MultiUserClientLibrary
-/INCLUDE:IMPLEMENT_MODULE_SQLiteCore
 /INCLUDE:IMPLEMENT_MODULE_SubstanceCore
 /INCLUDE:IMPLEMENT_MODULE_Paper2D
 /INCLUDE:IMPLEMENT_MODULE_AISupportModule
