@@ -15798,3 +15798,360 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.23-00.56.58:576][579]EditorErrors: Warning: Error saving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap'
 [2020.05.23-00.57.22:054][925]LogSlate: Window 'Message Log' being destroyed
 [2020.05.23-00.57.22:112][925]LogSlate: Window 'Message Log' being destroyed
+[2020.05.23-00.59.57:771][817]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.23-00.59.57:814][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
+[2020.05.23-00.59.57:814][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.23-00.59.57:814][817]PIE: New page: PIE session: DAROOM (22 may. 2020 14:59:57)
+[2020.05.23-00.59.57:814][817]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM
+[2020.05.23-00.59.57:833][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019002s)
+[2020.05.23-00.59.57:836][817]LogAIModule: Creating AISystem for world DAROOM
+[2020.05.23-00.59.57:837][817]LogPlayLevel: PIE: World Init took: (0.002995s)
+[2020.05.23-00.59.57:837][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DAROOM.DAROOM to /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM.DAROOM (0.022388s)
+[2020.05.23-00.59.57:908][817]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2020.05.23-00.59.57:912][817]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.23-00.59.57:912][817]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.23-00.59.57:912][817]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.23-00.59.57:912][817]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.23-00.59.57:912][817]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.23-00.59.57:912][817]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.23-00.59.57:912][817]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.23-00.59.57:912][817]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.23-00.59.57:913][817]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.23-00.59.57:913][817]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.23-00.59.58:478][817]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.23-00.59.58:478][817]LogAudioMixer: Display: Name: Altavoces / Auriculares (2- Realtek Audio)
+[2020.05.23-00.59.58:478][817]LogAudioMixer: Display: Is Default: Yes
+[2020.05.23-00.59.58:478][817]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.23-00.59.58:478][817]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.23-00.59.58:478][817]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.23-00.59.58:478][817]LogAudioMixer: Display: Channel Order:
+[2020.05.23-00.59.58:478][817]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.23-00.59.58:478][817]LogAudioMixer: Display: 1: FrontRight
+[2020.05.23-00.59.58:793][817]LogAudioMixer: Display: Using Audio Device Altavoces / Auriculares (2- Realtek Audio)
+[2020.05.23-00.59.58:796][817]LogInit: FAudioDevice initialized.
+[2020.05.23-00.59.58:811][817]LogLoad: Game class is 'Shooter_C'
+[2020.05.23-00.59.58:814][817]LogChildActorComponent: Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM.DAROOM:PersistentLevel.Cama_6.Cama'.  Not spawning Actor of class 'Cama_C' to break.
+[2020.05.23-00.59.58:819][817]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-00.59.58:819][817]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-00.59.58:820][817]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-00.59.58:820][817]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-00.59.58:821][817]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-00.59.58:822][817]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-00.59.58:823][817]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM.DAROOM up for play (max tick rate 0) at 2020.05.22-19.59.58
+[2020.05.23-00.59.58:823][817]LogWorld: Bringing up level for play took: 0.010737
+[2020.05.23-00.59.58:824][817]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2020.05.23-00.59.58:834][817]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM 1.019
+[2020.05.23-00.59.58:834][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
+[2020.05.23-01.00.01:018][901]LogBlueprintUserMessages: [Gun_C_0] 29
+[2020.05.23-01.00.01:734][928]Cmd: LevelEditor.ToggleImmersive
+[2020.05.23-01.00.01:866][929]LogRenderer: Reallocating scene render targets to support 1620x964 Format 9 NumSamples 1 (Frame:113).
+[2020.05.23-01.00.02:021][930]LogRenderer: Reallocating scene render targets to support 1672x964 Format 9 NumSamples 1 (Frame:115).
+[2020.05.23-01.00.02:852][965]LogBlueprintUserMessages: [Gun_C_0] 28
+[2020.05.23-01.00.03:697][  4]LogBlueprintUserMessages: [Gun_C_0] 27
+[2020.05.23-01.00.03:915][ 12]LogBlueprintUserMessages: [Gun_C_0] 26
+[2020.05.23-01.00.04:113][ 19]LogBlueprintUserMessages: [Gun_C_0] 25
+[2020.05.23-01.00.05:097][ 55]LogBlueprintUserMessages: [Gun_C_0] 24
+[2020.05.23-01.00.05:328][ 62]LogBlueprintUserMessages: [Gun_C_0] 23
+[2020.05.23-01.00.05:547][ 71]LogBlueprintUserMessages: [Gun_C_0] 22
+[2020.05.23-01.00.07:297][134]LogBlueprintUserMessages: [Gun_C_0] 21
+[2020.05.23-01.00.07:512][142]LogBlueprintUserMessages: [Gun_C_0] 20
+[2020.05.23-01.00.48:542][568]LogBlueprintUserMessages: [Gun_C_0] 19
+[2020.05.23-01.00.48:873][578]LogBlueprintUserMessages: [Gun_C_0] 18
+[2020.05.23-01.00.49:222][588]LogBlueprintUserMessages: [Gun_C_0] 17
+[2020.05.23-01.00.49:467][595]LogBlueprintUserMessages: [Gun_C_0] 16
+[2020.05.23-01.00.49:730][602]LogBlueprintUserMessages: [Gun_C_0] 15
+[2020.05.23-01.00.50:032][609]LogBlueprintUserMessages: [Gun_C_0] 14
+[2020.05.23-01.00.50:251][613]LogBlueprintUserMessages: [Gun_C_0] 13
+[2020.05.23-01.00.50:975][635]LogBlueprintUserMessages: [Gun_C_0] 12
+[2020.05.23-01.00.51:190][642]LogBlueprintUserMessages: [Gun_C_0] 11
+[2020.05.23-01.00.51:578][655]LogBlueprintUserMessages: [Gun_C_0] 10
+[2020.05.23-01.00.51:887][667]LogBlueprintUserMessages: [Gun_C_0] 9
+[2020.05.23-01.00.52:228][675]LogBlueprintUserMessages: [Gun_C_0] 8
+[2020.05.23-01.00.52:484][684]LogBlueprintUserMessages: [Gun_C_0] 7
+[2020.05.23-01.00.52:931][692]LogBlueprintUserMessages: [Gun_C_0] 6
+[2020.05.23-01.00.53:193][699]LogBlueprintUserMessages: [Gun_C_0] 5
+[2020.05.23-01.00.53:402][705]LogBlueprintUserMessages: [Gun_C_0] 4
+[2020.05.23-01.00.53:618][711]LogBlueprintUserMessages: [Gun_C_0] 3
+[2020.05.23-01.01.18:535][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-01.01.18:543][481]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.23-01.01.18:567][481]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.23-01.01.18:568][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
+[2020.05.23-01.01.18:569][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-01.01.18:569][481]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM
+[2020.05.23-01.01.18:570][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-01.01.18:588][481]LogWorld: UWorld::CleanupWorld for DAROOM, bSessionEnded=true, bCleanupResources=true
+[2020.05.23-01.01.18:592][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-01.01.18:624][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.23-01.01.18:625][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
+[2020.05.23-01.01.18:634][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.23-01.01.18:691][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.23-01.01.18:702][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.23-01.01.18:708][481]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.05.23-01.01.18:723][481]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 9 NumSamples 1 (Frame:54686).
+[2020.05.23-01.01.18:757][482]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2020.05.23-01.01.21:421][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube94)
+[2020.05.23-01.01.22:242][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2020.05.23-01.01.23:303][585]Cmd: DELETE
+[2020.05.23-01.01.23:303][585]Cmd: ACTOR DELETE
+[2020.05.23-01.01.23:312][585]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.23-01.01.23:402][585]LogUObjectHash: Compacting FUObjectHashTables data took   7.11ms
+[2020.05.23-01.01.23:406][585]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2020.05.23-01.02.19:727][215]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ContenidoRecamara/Hamster/pecera.pecera
+[2020.05.23-01.04.42:269][  3]LogSlate: Window 'pecera' being destroyed
+[2020.05.23-01.04.57:671][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.23-01.05.03:112][360]Cmd: TRANSACTION UNDO
+[2020.05.23-01.05.03:112][360]LogEditorTransaction: Undo Reset to Default
+[2020.05.23-01.05.06:554][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube95)
+[2020.05.23-01.05.08:705][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2020.05.23-01.05.11:113][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube94)
+[2020.05.23-01.05.15:704][529]Cmd: TRANSACTION UNDO
+[2020.05.23-01.05.15:705][529]LogEditorTransaction: Undo Reset to Default
+[2020.05.23-01.05.21:180][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2020.05.23-01.05.26:728][700]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.23-01.05.39:606][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2020.05.23-01.05.50:928][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube95)
+[2020.05.23-01.06.11:970][938]Cmd: TRANSACTION UNDO
+[2020.05.23-01.06.11:970][938]LogEditorTransaction: Undo Move Actors
+[2020.05.23-01.06.14:406][986]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.05.23-01.06.29:216][257]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.23-01.06.31:951][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube94)
+[2020.05.23-01.06.39:990][486]Cmd: DELETE
+[2020.05.23-01.06.39:990][486]Cmd: ACTOR DELETE
+[2020.05.23-01.06.40:002][486]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.23-01.06.40:108][486]LogUObjectHash: Compacting FUObjectHashTables data took   9.16ms
+[2020.05.23-01.06.40:117][486]LogEditorActor: Deleted 1 Actors (0.127 secs)
+[2020.05.23-01.06.43:477][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube95)
+[2020.05.23-01.06.47:944][656]Cmd: TRANSACTION UNDO
+[2020.05.23-01.06.47:944][656]LogEditorTransaction: Undo Move Actors
+[2020.05.23-01.06.52:637][754]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.05.23-01.07.07:460][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2020.05.23-01.07.11:282][ 64]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.05.23-01.07.14:056][110]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.23-01.07.14:767][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2020.05.23-01.07.24:241][264]MapCheck: New page: Map Check
+[2020.05.23-01.07.24:366][264]Cmd: MAP REBUILD ALLVISIBLE
+[2020.05.23-01.07.24:368][264]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.05.23-01.07.25:283][264]LogWorld: UWorld::CleanupWorld for DAROOM, bSessionEnded=true, bCleanupResources=false
+[2020.05.23-01.07.25:288][264]LogChildActorComponent: Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.Cama_6.Cama'.  Not spawning Actor of class 'Cama_C' to break.
+[2020.05.23-01.07.25:289][264]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-01.07.25:289][264]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-01.07.25:290][264]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-01.07.25:290][264]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-01.07.25:291][264]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-01.07.25:291][264]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-01.07.25:305][264]LogChildActorComponent: Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.Cama_6.Cama'.  Not spawning Actor of class 'Cama_C' to break.
+[2020.05.23-01.07.25:337][264]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-01.07.25:337][264]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-01.07.25:344][264]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-01.07.25:344][264]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-01.07.25:352][264]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-01.07.25:352][264]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-01.07.25:356][264]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-01.07.25:356][264]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-01.07.25:369][264]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-01.07.25:369][264]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-01.07.25:374][264]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2020.05.23-01.07.25:374][264]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.05.23-01.07.25:486][264]LogUObjectHash: Compacting FUObjectHashTables data took   8.36ms
+[2020.05.23-01.07.25:507][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.25:547][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.05.23-01.07.25:547][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.05.23-01.07.25:548][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.25:617][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.05.23-01.07.25:618][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.23-01.07.25:618][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.25:685][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2020.05.23-01.07.25:845][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.25:894][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.25:944][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.25:989][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.26:034][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.26:080][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.26:135][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.26:181][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.26:231][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.26:298][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.26:351][264]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 62
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 61
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 60
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 58
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 57
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 56
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 55
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 54
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 53
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 52
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 50
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 48
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 47
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 46
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 45
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 44
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 43
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 42
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 41
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 37
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2020.05.23-01.07.39:669][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 34
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.05.23-01.07.39:670][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.05.23-01.07.39:671][264]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.05.23-01.07.39:671][264]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.05.23-01.07.39:671][264]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.05.23-01.07.39:671][264]TextureStreamingBuild: Display: Compiling optional shaders took 14.181 seconds.
+[2020.05.23-01.07.39:692][264]LogLevel: Display: Export Material TexCoord Scales took 0.021 seconds.
+[2020.05.23-01.07.39:698][264]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2020.05.23-01.07.39:750][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.05.23-01.07.39:756][264]LightingResults: New page: Lighting Build - 22 may. 2020 15:07:39
+[2020.05.23-01.07.39:766][264]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.05.23-01.07.39:780][264]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.05.23-01.07.39:780][264]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.05.23-01.07.39:782][264]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.05.23-01.07.39:783][264]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19600
+[2020.05.23-01.07.44:320][264]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2020.05.23-01.07.44:320][264]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.05.23-01.07.44:320][264]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.05.23-01.07.44:320][264]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.05.23-01.07.44:320][264]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.05.23-01.07.44:320][264]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.05.23-01.07.44:832][264]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.05.23-01.07.44:832][264]MapCheck: New page: DAROOM - 22 may. 2020 15:07:44
+[2020.05.23-01.07.44:884][264]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2020.05.23-01.07.44:884][264]MapCheck: Warning: Cama_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:885][264]MapCheck: Warning: Cama_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:885][264]MapCheck: Warning: Cama_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:885][264]MapCheck: Warning: Cama_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:885][264]MapCheck: Warning: pecera_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:885][264]MapCheck: Warning: pecera_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:885][264]MapCheck: Warning: pecera_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:885][264]MapCheck: Warning: pecera_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:885][264]MapCheck: Warning: escritorio_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:885][264]MapCheck: Warning: escritorio_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:886][264]MapCheck: Warning: libre_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:886][264]MapCheck: Warning: libre2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.07.44:886][264]MapCheck: Map check complete: 1 Error(s), 12 Warning(s), took 53.404ms to complete.
+[2020.05.23-01.07.44:897][264]LogEditorBuildUtils: Build time 0:20
+[2020.05.23-01.07.46:102][269]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2020.05.23-01.07.55:511][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.05.23-01.07.56:969][293]LogSavePackage: Moving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/DAROOM_Auto7C9B9395E40E9D1340C66E1A85D0B2A27.tmp' to '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Autosaves/Game/ThirdPersonBP/Maps/DAROOM_Auto7.umap'
+[2020.05.23-01.07.56:977][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/DAROOM' took 1.546
+[2020.05.23-01.07.56:977][293]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.546
+[2020.05.23-01.08.16:342][350]LogSlate: Window 'Message Log' being destroyed
+[2020.05.23-01.08.16:414][350]LogSlate: Window 'Message Log' being destroyed
+[2020.05.23-01.08.50:345][847]Job is a success!
+[2020.05.23-01.08.52:229][848]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 1.303s
+[2020.05.23-01.08.52:229][848]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2020.05.23-01.08.52:229][848]LogVolumetricLightmapImport:      BrickData (all levels) 7.5Mb (trimmed 6.0Mb due to 0.010000 MinBrickError)
+[2020.05.23-01.08.52:230][848]LogVolumetricLightmapImport:      Bricks at depth
+[2020.05.23-01.08.52:230][848]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2020.05.23-01.08.52:230][848]LogVolumetricLightmapImport:          1: 8.1% covering 23.6% of volume
+[2020.05.23-01.08.52:230][848]LogVolumetricLightmapImport:          2: 91.4% covering 4.2% of volume
+[2020.05.23-01.08.52:230][848]LogVolumetricLightmapImport:      Bricks in each level
+[2020.05.23-01.08.52:230][848]LogVolumetricLightmapImport:          DAROOM 			 1496 bricks 	 100.0% (Persistent Level)
+[2020.05.23-01.08.53:354][848]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2020.05.23-01.08.53:354][848]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.05.23-01.08.53:354][848]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.05.23-01.08.53:354][848]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2020.05.23-01.08.53:354][848]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.05.23-01.08.53:354][848]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.05.23-01.08.53:354][848]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 512X256)
+[2020.05.23-01.08.53:354][848]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 512X512)
+[2020.05.23-01.08.53:354][848]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 512X512)
+[2020.05.23-01.08.53:355][848]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 128X64)
+[2020.05.23-01.08.53:355][848]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2020.05.23-01.08.53:355][848]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2020.05.23-01.08.53:355][848]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 128X64)
+[2020.05.23-01.08.53:355][848]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2020.05.23-01.08.53:355][848]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2020.05.23-01.08.53:355][848]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 64X32)
+[2020.05.23-01.08.53:355][848]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2020.05.23-01.08.53:355][848]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2020.05.23-01.08.53:552][848]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (BGRA8, 64X64)
+[2020.05.23-01.08.53:552][848]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (G8, 32X32)
+[2020.05.23-01.08.53:552][848]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (BGRA8, 64X64)
+[2020.05.23-01.08.53:552][848]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (BGRA8, 256X256)
+[2020.05.23-01.08.53:552][848]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 512X512)
+[2020.05.23-01.08.53:999][848]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 512X512)
+[2020.05.23-01.08.53:999][848]Lightmass on WOLFGANG: 1:06 min total, 360 ms importing, 17 ms setup, 9.68 sec photons, 55.5 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 6:28 min total, 20.9 sec processing.
+[2020.05.23-01.08.54:077][848]LogStaticLightingSystem: DAROOM_BuiltData storing lightmap data for 6 meshes in 6 LightmapResourceClusters (1.0 Meshes per cluster).
+[2020.05.23-01.08.54:237][848]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2020.05.23-01.08.54:275][848]LogStaticLightingSystem: Illumination: 1:14 min (907 ms encoding lightmaps, 323 ms encoding shadowmaps)
+[2020.05.23-01.08.54:275][848]LogStaticLightingSystem: Lightmap texture memory:  6.1 MB (6.1 MB streaming, 0.0 MB non-streaming), 12 textures
+[2020.05.23-01.08.54:275][848]LogStaticLightingSystem: Shadowmap texture memory: 3.0 MB (3.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2020.05.23-01.08.59:422][848]DumpUnbuiltLightIteractions
+[2020.05.23-01.08.59:422][848]Lights with unbuilt interactions: 0
+[2020.05.23-01.08.59:422][848]
+[2020.05.23-01.08.59:422][848]Primitives with unbuilt interactions: 0
+[2020.05.23-01.08.59:780][849]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.05.23-01.08.59:780][849]MapCheck: New page: DAROOM - 22 may. 2020 15:08:59
+[2020.05.23-01.08.59:780][849]MapCheck: Warning: Cama_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:780][849]MapCheck: Warning: Cama_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:780][849]MapCheck: Warning: Cama_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:780][849]MapCheck: Warning: Cama_6 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:781][849]MapCheck: Warning: pecera_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:781][849]MapCheck: Warning: pecera_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:781][849]MapCheck: Warning: pecera_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:781][849]MapCheck: Warning: pecera_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:781][849]MapCheck: Warning: escritorio_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:781][849]MapCheck: Warning: escritorio_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:781][849]MapCheck: Warning: libre_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:781][849]MapCheck: Warning: libre2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.05.23-01.08.59:782][849]MapCheck: Map check complete: 0 Error(s), 12 Warning(s), took 1.771ms to complete.
+[2020.05.23-01.09.00:529][860]LogEditorViewport: Clicking Background
+[2020.05.23-01.09.02:596][896]LogSlate: Window 'Message Log' being destroyed
+[2020.05.23-01.09.02:678][896]LogSlate: Window 'Message Log' being destroyed
+[2020.05.23-01.09.20:376][230]LogEditorViewport: Clicking on Actor (LMB): libre_C (libre)
+[2020.05.23-01.09.22:162][261]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.23-01.09.23:125][278]LogEditorViewport: Clicking on Actor (LMB): Buro_C (Buro)
+[2020.05.23-01.09.24:095][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.23-01.09.24:955][307]LogEditorViewport: Clicking on Actor (LMB): Cama_C (Cama)
+[2020.05.23-01.09.25:811][322]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.23-01.09.26:685][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2020.05.23-01.09.27:323][346]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.23-01.09.28:201][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.23-01.09.28:868][370]LogEditorViewport: Clicking on Actor (LMB): libre_C (libre)
+[2020.05.23-01.11.09:583][226]LogUObjectHash: Compacting FUObjectHashTables data took  14.12ms
+[2020.05.23-01.11.10:433][226]LogSavePackage: Moving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/DAROOMC46BAE754CCAC8EBF23EFB9884D7EF36.tmp' to '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap'
+[2020.05.23-01.11.10:434][226]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap', retrying in .5s...
+[2020.05.23-01.11.10:936][226]LogFileManager: Error: Error deleting file '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap'.
+[2020.05.23-01.11.10:936][226]LogSavePackage: Error: Error saving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap'
+[2020.05.23-01.11.10:949][226]EditorErrors: New page: Save Output
+[2020.05.23-01.11.10:949][226]EditorErrors: Warning: Error saving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap'
+[2020.05.23-01.11.13:001][255]LogSlate: Window 'Message Log' being destroyed
+[2020.05.23-01.11.13:089][255]LogSlate: Window 'Message Log' being destroyed
