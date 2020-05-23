@@ -1,4 +1,4 @@
-﻿Log file open, 05/21/20 20:45:33
+﻿Log file open, 05/22/20 17:56:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: DAROOM
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.198131
+LogStats: Stats thread started at 0.413283
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -165,995 +165,499 @@ LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
 LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
 LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogFileManager: Warning: Error deleting file: ../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Logs/DAROOM-backup-2020.05.20-16.48.39.log (Error Code 5)
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
-[2020.05.22-01.45.34:083][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.05.22-01.45.34:083][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.05.22-01.45.34:084][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
-[2020.05.22-01.45.34:084][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
-[2020.05.22-01.45.34:093][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.05.22-01.45.34:093][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.05.22-01.45.34:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.05.22-01.45.34:095][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.05.22-01.45.34:096][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.05.22-01.45.34:096][  0]LogInit: Selected Device Profile: [Windows]
-[2020.05.22-01.45.34:096][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.05.22-01.45.34:104][  0]LogHAL: Display: Platform has ~ 24 GB [25440763904 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.05.22-01.45.34:104][  0]LogInit: Going up to parent DeviceProfile []
-[2020.05.22-01.45.34:105][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:105][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.05.22-01.45.34:105][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
-[2020.05.22-01.45.34:105][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:105][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2020.05.22-01.45.34:105][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:105][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
-[2020.05.22-01.45.34:106][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.05.22-01.45.34:107][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2020.05.22-01.45.34:108][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
-[2020.05.22-01.45.34:109][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SSGI.Quality:2]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
-[2020.05.22-01.45.34:110][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
-[2020.05.22-01.45.34:111][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
-[2020.05.22-01.45.34:111][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.05.22-01.45.34:111][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.05.22-01.45.34:111][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.05.22-01.45.34:111][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.05.22-01.45.34:112][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.05.22-01.45.34:112][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.05.22-01.45.34:112][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
-[2020.05.22-01.45.34:112][  0]LogInit: Computer: WOLFGANG
-[2020.05.22-01.45.34:112][  0]LogInit: User: YanVillalobos
-[2020.05.22-01.45.34:112][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.05.22-01.45.34:112][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.05.22-01.45.34:113][  0]LogMemory: Memory total: Physical=23.7GB (24GB approx)
-[2020.05.22-01.45.34:113][  0]LogMemory: Platform Memory Stats for Windows
-[2020.05.22-01.45.34:113][  0]LogMemory: Process Physical Memory: 105.98 MB used, 105.98 MB peak
-[2020.05.22-01.45.34:113][  0]LogMemory: Process Virtual Memory: 100.86 MB used, 100.86 MB peak
-[2020.05.22-01.45.34:113][  0]LogMemory: Physical Memory: 9484.23 MB used,  14777.97 MB free, 24262.20 MB total
-[2020.05.22-01.45.34:113][  0]LogMemory: Virtual Memory: 5138.60 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2020.05.22-01.45.34:121][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.05.22-01.45.34:213][  0]LogInit: Overriding language with editor language configuration option (en).
-[2020.05.22-01.45.34:213][  0]LogInit: Overriding locale with editor culture configuration option ().
-[2020.05.22-01.45.34:213][  0]LogInit: Using OS detected locale (es-MX).
-[2020.05.22-01.45.34:627][  0]LogInit: Setting process to per monitor DPI aware
-[2020.05.22-01.45.34:732][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.05.22-01.45.34:732][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.05.22-01.45.36:074][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.05.22-01.45.36:075][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.05.22-01.45.36:075][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.05.22-01.45.36:075][  0]LogD3D11RHI: D3D11 adapters:
-[2020.05.22-01.45.36:271][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2020.05.22-01.45.36:271][  0]LogD3D11RHI:       4055/0/12131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.05.22-01.45.36:304][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2020.05.22-01.45.36:304][  0]LogD3D11RHI:       128/0/12131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.05.22-01.45.36:310][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.05.22-01.45.36:310][  0]LogD3D11RHI:       0/0/12131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.05.22-01.45.36:310][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.05.22-01.45.36:436][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.05.22-01.45.36:436][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2020.05.22-01.45.36:436][  0]LogWindows: EnumDisplayDevices:
-[2020.05.22-01.45.36:436][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2020.05.22-01.45.36:438][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
-[2020.05.22-01.45.36:439][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.05.22-01.45.36:440][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.05.22-01.45.36:440][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2020.05.22-01.45.36:440][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.05.22-01.45.36:441][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.05.22-01.45.36:441][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2020.05.22-01.45.36:539][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.05.22-01.45.36:539][  0]LogD3D11RHI: Async texture creation enabled
-[2020.05.22-01.45.36:569][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.05.22-01.45.37:612][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.05.22-01.45.37:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.05.22-01.45.37:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.05.22-01.45.37:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.05.22-01.45.37:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.05.22-01.45.37:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.05.22-01.45.37:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.05.22-01.45.37:716][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.05.22-01.45.37:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.05.22-01.45.37:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.05.22-01.45.37:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.05.22-01.45.37:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.05.22-01.45.37:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.05.22-01.45.37:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.05.22-01.45.37:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.05.22-01.45.37:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.05.22-01.45.37:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.05.22-01.45.37:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.05.22-01.45.37:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.05.22-01.45.37:906][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.05.22-01.45.37:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.05.22-01.45.37:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.05.22-01.45.37:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.05.22-01.45.37:952][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.05.22-01.45.37:962][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.05.22-01.45.38:008][  0]LogShaderCompilers: Guid format shader working directory is -73 characters bigger than the processId version (../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Intermediate/Shaders/WorkingDirectory/7200/).
-[2020.05.22-01.45.38:009][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/temptest/UnrealShaderWorkingDir/B716313147A8B30624A602BF43EA32E2/'.
-[2020.05.22-01.45.38:010][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.05.22-01.45.38:011][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.05.22-01.45.38:011][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.05.22-01.45.39:589][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.05.22-01.45.39:692][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/Yan Villalobos/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.05.22-01.45.39:692][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yan Villalobos/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.05.22-01.45.39:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.05.22-01.45.39:692][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.05.22-01.45.39:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.05.22-01.45.39:692][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.05.22-01.45.39:709][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.05.22-01.45.39:709][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.05.22-01.45.39:710][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.05.22-01.45.39:716][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yan Villalobos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.05.22-01.45.39:717][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.05.22-01.45.39:717][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.05.22-01.45.39:766][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.05.22-01.45.39:770][  0]LogSlate: Using FreeType 2.10.0
-[2020.05.22-01.45.39:772][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.05.22-01.45.39:936][  0]LogAssetRegistry: FAssetRegistry took 0.0039 seconds to start up
-[2020.05.22-01.45.40:594][  0]LogInit: Selected Device Profile: [Windows]
-[2020.05.22-01.45.40:927][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.05.22-01.45.40:927][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.05.22-01.45.40:927][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.05.22-01.45.40:927][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.05.22-01.45.40:927][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.05.22-01.45.40:968][  0]LogNetVersion: DAROOM 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2238005089)
-[2020.05.22-01.45.44:042][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.121224 seconds
-[2020.05.22-01.45.44:066][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.05.22-01.45.44:067][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.05.22-01.45.44:067][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.05.22-01.45.45:083][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2020.05.22-01.45.45:091][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.05.22-01.45.45:096][  0]LogUdpMessaging: Warning: Invalid UDP Messaging Static Endpoint '246-008-323:6666'
-[2020.05.22-01.45.45:096][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.05.22-01.45.45:270][  0]SourceControl: Source control is disabled
-[2020.05.22-01.45.45:272][  0]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2020.05.22-01.45.45:273][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2020.05.22-01.45.45:278][  0]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2020.05.22-01.45.45:278][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2020.05.22-01.45.45:282][  0]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2020.05.22-01.45.45:282][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2020.05.22-01.45.45:290][  0]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2020.05.22-01.45.45:290][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2020.05.22-01.45.45:643][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.05.22-01.45.45:677][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.05.22-01.45.45:677][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.05.22-01.45.45:967][  0]LogOcInput: OculusInput pre-init called
-[2020.05.22-01.45.46:001][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.05.22-01.45.46:001][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.05.22-01.45.46:315][  0]LogEngine: Initializing Engine...
-[2020.05.22-01.45.46:509][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.05.22-01.45.46:511][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.05.22-01.45.47:348][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.05.22-01.45.47:360][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.05.22-01.45.47:390][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.05.22-01.45.47:390][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.05.22-01.45.47:390][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.05.22-01.45.47:390][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.05.22-01.45.47:390][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.05.22-01.45.47:390][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.05.22-01.45.47:390][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.05.22-01.45.47:390][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.05.22-01.45.47:391][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.05.22-01.45.47:391][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.05.22-01.45.47:964][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.05.22-01.45.47:964][  0]LogAudioMixer: Display: Name: Altavoces / Auriculares (2- Realtek Audio)
-[2020.05.22-01.45.47:964][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.05.22-01.45.47:964][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.05.22-01.45.47:965][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.05.22-01.45.47:965][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.05.22-01.45.47:965][  0]LogAudioMixer: Display: Channel Order:
-[2020.05.22-01.45.47:965][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.05.22-01.45.47:965][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.05.22-01.45.48:533][  0]LogAudioMixer: Display: Using Audio Device Altavoces / Auriculares (2- Realtek Audio)
-[2020.05.22-01.45.48:541][  0]LogInit: FAudioDevice initialized.
-[2020.05.22-01.45.48:541][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.05.22-01.45.48:702][  0]LogDerivedDataCache: Saved boot cache 0.16s 78MB C:/Users/Yan Villalobos/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.05.22-01.45.48:703][  0]LogInit: Texture streaming: Enabled
-[2020.05.22-01.45.48:738][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.05.22-01.45.48:738][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={0CE7339E-4359-ED1E-6640-B5B9E80A3466}
-[2020.05.22-01.45.48:738][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.05.22-01.45.48:749][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.05.22-01.45.48:849][  0]LogInit: Transaction tracking system initialized
-[2020.05.22-01.45.48:876][  0]BlueprintLog: New page: Editor Load
-[2020.05.22-01.45.48:933][  0]LocalizationService: Localization service is disabled
-[2020.05.22-01.45.49:655][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.05.22-01.45.49:655][  0]LogCook: Display: Mobile HDR setting 1
-[2020.05.22-01.45.49:921][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/' took 0.03s
-[2020.05.22-01.45.52:191][  0]LogWindows: Warning: CreateProc failed: El sistema no puede encontrar el archivo especificado. (0x00000002)
-[2020.05.22-01.45.52:191][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2020.05.22-01.45.52:192][  0]Cmd: MAP LOAD FILE="../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.05.22-01.45.52:192][  0]LightingResults: New page: Lighting Build
-[2020.05.22-01.45.52:193][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.05.22-01.45.52:194][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.05.22-01.45.52:194][  0]MapCheck: New page: Map Check
-[2020.05.22-01.45.52:194][  0]LightingResults: New page: Lighting Build
-[2020.05.22-01.45.52:231][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
-[2020.05.22-01.45.53:205][  0]LogMaterial: Display: Missing cached shader map for material RespaldoMat, compiling. 
-[2020.05.22-01.45.53:277][  0]LogStaticMesh: Building static mesh Bed_1_4_Respaldo...
-[2020.05.22-01.45.53:511][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
-[2020.05.22-01.45.53:512][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
-[2020.05.22-01.45.53:512][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
-[2020.05.22-01.45.53:512][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
-[2020.05.22-01.45.53:512][  0]LogStaticMesh: Built static mesh [0.24s] /Game/StarterContent/Cama/Bed_1_4_Respaldo.Bed_1_4_Respaldo
-[2020.05.22-01.45.53:574][  0]LogMaterial: Display: Missing cached shader map for material Pa_piesMat, compiling. 
-[2020.05.22-01.45.53:607][  0]LogStaticMesh: Building static mesh Bed_1_4_Base_Bed...
-[2020.05.22-01.45.53:747][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 15
-[2020.05.22-01.45.53:747][  0]LogStaticMesh: Built static mesh [0.14s] /Game/StarterContent/Cama/Bed_1_4_Base_Bed.Bed_1_4_Base_Bed
-[2020.05.22-01.45.53:783][  0]LogMaterial: Display: Missing cached shader map for material AlmhoadaMat, compiling. 
-[2020.05.22-01.45.53:816][  0]LogStaticMesh: Building static mesh Bed_1_4_Almhoada...
-[2020.05.22-01.45.54:205][  0]LogStaticMesh: Built static mesh [0.39s] /Game/StarterContent/Cama/Bed_1_4_Almhoada.Bed_1_4_Almhoada
-[2020.05.22-01.45.54:261][  0]LogStaticMesh: Building static mesh Bed_1_4_Colchon...
-[2020.05.22-01.45.54:346][  0]LogStaticMesh: Built static mesh [0.09s] /Game/StarterContent/Cama/Bed_1_4_Colchon.Bed_1_4_Colchon
-[2020.05.22-01.45.54:362][  0]LogStaticMesh: Building static mesh Bed_1_4_Pa_pies...
-[2020.05.22-01.45.54:877][  0]LogStaticMesh: Built static mesh [0.52s] /Game/StarterContent/Cama/Bed_1_4_Pa_pies.Bed_1_4_Pa_pies
-[2020.05.22-01.45.54:969][  0]LogMaterial: Display: Missing cached shader map for material ColchonMat, compiling. 
-[2020.05.22-01.45.55:016][  0]LogMaterial: Display: Missing cached shader map for material Base_BedMat, compiling. 
-[2020.05.22-01.45.55:606][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:606][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:606][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_116' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_118' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_119' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_121' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_122' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_124' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_125' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_126' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_128' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_129' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:607][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:608][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_Root_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:727][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:727][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_10' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_13' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_14' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_16' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:728][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:729][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:729][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:729][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.55:729][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_Root_69' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2020.05.22-01.45.56:143][  0]LogAIModule: Creating AISystem for world DAROOM
-[2020.05.22-01.45.56:182][  0]LogChildActorComponent: Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.Cama_6.Cama'.  Not spawning Actor of class 'Cama_C' to break.
-[2020.05.22-01.45.56:187][  0]LogChildActorComponent: Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.Cama_6.Cama'.  Not spawning Actor of class 'Cama_C' to break.
-[2020.05.22-01.45.56:189][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.05.22-01.45.56:919][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
-[2020.05.22-01.45.56:921][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.05.22-01.45.56:921][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.13ms to complete.
-[2020.05.22-01.45.56:921][  0]LogFileHelpers: Loading map 'DAROOM' took 4.729
-[2020.05.22-01.45.56:921][  0]LogAssetRegistry: Flushing asset discovery search because of synchronous request, this can take several seconds...
-[2020.05.22-01.45.57:040][  0]LogAssetRegistry: Asset discovery search completed in 0.1201 seconds
-[2020.05.22-01.45.57:058][  0]LogCollectionManager: Loaded 0 collections in 0.006350 seconds
-[2020.05.22-01.45.57:071][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Collections/' took 0.00s
-[2020.05.22-01.45.57:071][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/Developers/YanVillalobos/Collections/' took 0.00s
-[2020.05.22-01.45.57:071][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/Collections/' took 0.00s
-[2020.05.22-01.45.57:071][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
-[2020.05.22-01.45.57:294][  0]LogContentBrowser: Native class hierarchy populated in 0.0214 seconds. Added 3035 classes and 741 folders.
-[2020.05.22-01.45.57:303][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.05.22-01.45.57:674][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 56
-[2020.05.22-01.45.57:674][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.05.22-01.45.57:729][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.22-01.45.57:750][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.22-01.45.57:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.22-01.45.57:792][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.22-01.45.57:811][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
-[2020.05.22-01.46.00:485][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 46
-[2020.05.22-01.46.00:485][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
-[2020.05.22-01.46.00:485][  0]LogSlate: Took 0.000771 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.05.22-01.46.00:491][  0]LogSlate: Took 0.000579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.05.22-01.46.00:726][  0]LogRenderer: Reallocating scene render targets to support 1116x964 Format 9 NumSamples 1 (Frame:1).
-[2020.05.22-01.46.03:008][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.05.22-01.46.03:009][  0]LogLoad: (Engine Initialization) Total time: 36.65 seconds
-[2020.05.22-01.46.03:009][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.05.22-01.46.03:067][  0]LogContentStreaming: Texture pool size now 800 MB
-[2020.05.22-01.46.03:122][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
-[2020.05.22-01.46.03:179][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/' took 0.15s
-[2020.05.22-01.46.14:310][205]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
-[2020.05.22-01.46.21:179][382]LogTemp: Repeating last play command: Selected Viewport
-[2020.05.22-01.46.21:214][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
-[2020.05.22-01.46.21:214][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.05.22-01.46.21:217][382]PIE: New page: PIE session: DAROOM (21 may. 2020 15:46:21)
-[2020.05.22-01.46.21:219][382]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.05.22-01.46.21:222][382]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.05.22-01.46.21:222][382]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM
-[2020.05.22-01.46.21:262][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039164s)
-[2020.05.22-01.46.21:265][382]LogAIModule: Creating AISystem for world DAROOM
-[2020.05.22-01.46.21:265][382]LogPlayLevel: PIE: World Init took: (0.003878s)
-[2020.05.22-01.46.21:266][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/DAROOM.DAROOM to /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM.DAROOM (0.043573s)
-[2020.05.22-01.46.21:307][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
-[2020.05.22-01.46.21:314][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.05.22-01.46.21:314][382]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.05.22-01.46.21:314][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.05.22-01.46.21:314][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.05.22-01.46.21:314][382]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.05.22-01.46.21:314][382]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.05.22-01.46.21:314][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.05.22-01.46.21:314][382]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.05.22-01.46.21:315][382]LogAudio: Display: Using built-in audio occlusion.
-[2020.05.22-01.46.21:315][382]LogAudioMixer: Display: Initializing audio mixer.
-[2020.05.22-01.46.21:952][382]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.05.22-01.46.21:952][382]LogAudioMixer: Display: Name: Altavoces / Auriculares (2- Realtek Audio)
-[2020.05.22-01.46.21:952][382]LogAudioMixer: Display: Is Default: Yes
-[2020.05.22-01.46.21:952][382]LogAudioMixer: Display: Sample Rate: 48000
-[2020.05.22-01.46.21:952][382]LogAudioMixer: Display: Channel Count Used: 2
-[2020.05.22-01.46.21:953][382]LogAudioMixer: Display: Device Channel Count: 2
-[2020.05.22-01.46.21:953][382]LogAudioMixer: Display: Channel Order:
-[2020.05.22-01.46.21:953][382]LogAudioMixer: Display: 0: FrontLeft
-[2020.05.22-01.46.21:953][382]LogAudioMixer: Display: 1: FrontRight
-[2020.05.22-01.46.22:310][382]LogAudioMixer: Display: Using Audio Device Altavoces / Auriculares (2- Realtek Audio)
-[2020.05.22-01.46.22:314][382]LogInit: FAudioDevice initialized.
-[2020.05.22-01.46.22:329][382]LogLoad: Game class is 'Shooter_C'
-[2020.05.22-01.46.22:338][382]LogChildActorComponent: Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM.DAROOM:PersistentLevel.Cama_6.Cama'.  Not spawning Actor of class 'Cama_C' to break.
-[2020.05.22-01.46.22:339][382]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM.DAROOM up for play (max tick rate 0) at 2020.05.21-20.46.22
-[2020.05.22-01.46.22:339][382]LogWorld: Bringing up level for play took: 0.007419
-[2020.05.22-01.46.22:340][382]LogOnline: OSS: Creating online subsystem instance for: :Context_2
-[2020.05.22-01.46.22:348][382]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
-[2020.05.22-01.46.22:356][382]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM 0.221
-[2020.05.22-01.46.22:357][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
-[2020.05.22-01.46.22:466][385]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
-[2020.05.22-01.46.22:728][396]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
-[2020.05.22-01.46.23:636][443]LogBlueprintUserMessages: [Gun_C_0] 29
-[2020.05.22-01.46.25:270][523]LogBlueprintUserMessages: [Gun_C_0] 28
-[2020.05.22-01.46.25:591][536]LogBlueprintUserMessages: [Gun_C_0] 27
-[2020.05.22-01.46.26:324][565]LogBlueprintUserMessages: [Gun_C_0] 26
-[2020.05.22-01.46.26:549][573]LogBlueprintUserMessages: [Gun_C_0] 25
-[2020.05.22-01.46.27:850][636]LogBlueprintUserMessages: [Gun_C_0] 24
-[2020.05.22-01.46.28:098][641]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
-[2020.05.22-01.46.28:098][641]LogBlueprintUserMessages: [Gun_C_0] 23
-[2020.05.22-01.46.30:196][687]LogBlueprintUserMessages: [Gun_C_0] 22
-[2020.05.22-01.46.30:480][688]LogBlueprintUserMessages: [Gun_C_0] 21
-[2020.05.22-01.46.32:270][765]LogBlueprintUserMessages: [Gun_C_0] 20
-[2020.05.22-01.46.32:472][775]LogBlueprintUserMessages: [Gun_C_0] 19
-[2020.05.22-01.46.34:300][859]LogBlueprintUserMessages: [Gun_C_0] 18
-[2020.05.22-01.46.34:502][867]LogBlueprintUserMessages: [Gun_C_0] 17
-[2020.05.22-01.46.34:704][876]LogBlueprintUserMessages: [Gun_C_0] 16
-[2020.05.22-01.46.36:268][949]LogBlueprintUserMessages: [Gun_C_0] 15
-[2020.05.22-01.46.36:507][953]LogBlueprintUserMessages: [Gun_C_0] 14
-[2020.05.22-01.46.37:326][988]LogBlueprintUserMessages: [Gun_C_0] 13
-[2020.05.22-01.46.37:536][  0]LogBlueprintUserMessages: [Gun_C_0] 12
-[2020.05.22-01.46.38:236][ 31]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
-[2020.05.22-01.46.38:365][ 37]LogBlueprintUserMessages: [Gun_C_0] 11
-[2020.05.22-01.46.38:552][ 47]LogBlueprintUserMessages: [Gun_C_0] 10
-[2020.05.22-01.46.39:222][ 70]LogBlueprintUserMessages: [Gun_C_0] 9
-[2020.05.22-01.46.39:223][ 70]LogBlueprintUserMessages: [Gun_C_0] 8
-[2020.05.22-01.46.39:844][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.05.22-01.46.39:844][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.05.22-01.46.39:844][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
-[2020.05.22-01.46.39:845][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.22-01.46.39:845][ 95]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_DAROOM
-[2020.05.22-01.46.39:845][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.05.22-01.46.39:845][ 95]LogWorld: UWorld::CleanupWorld for DAROOM, bSessionEnded=true, bCleanupResources=true
-[2020.05.22-01.46.39:847][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.05.22-01.46.39:884][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.05.22-01.46.39:884][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM' with GeneratedClass '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.DAROOM'
-[2020.05.22-01.46.39:891][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.05.22-01.46.39:938][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.05.22-01.46.39:958][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.22-01.46.39:968][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
-[2020.05.22-01.46.40:013][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2020.05.22-01.46.41:016][138]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
-[2020.05.22-01.46.41:545][141]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
-[2020.05.22-01.46.42:566][141]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
-[2020.05.22-01.46.44:570][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
-[2020.05.22-01.46.48:270][289]LogSlate: Took 0.000782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.05.22-01.46.48:376][289]LogUObjectHash: Compacting FUObjectHashTables data took   7.04ms
-[2020.05.22-01.46.48:957][289]LogSavePackage: Moving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/DAROOM27F69BDB45A1D14E6DDBBCA4B5762717.tmp' to '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap'
-[2020.05.22-01.46.49:842][289]LogSavePackage: Moving '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/DAROOM_BuiltDataA9F43D434FF6D7965B7A648C72A99380.tmp' to '../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM_BuiltData.uasset'
-[2020.05.22-01.46.49:940][289]AssetCheck: New page: Asset Save: multiple assets
-[2020.05.22-01.46.49:940][289]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/DAROOM.DAROOM
-[2020.05.22-01.46.49:940][289]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/DAROOM_BuiltData.DAROOM_BuiltData
-[2020.05.22-01.46.53:569][384]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
-[2020.05.22-01.46.53:737][384]LogSlate: Window 'DAROOM - Unreal Editor' being destroyed
-[2020.05.22-01.46.53:740][384]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.05.22-01.46.54:789][385]Cmd: QUIT_EDITOR
-[2020.05.22-01.46.54:790][385]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
-[2020.05.22-01.46.55:155][385]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.05.22-01.46.55:156][385]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.05.22-01.46.55:926][385]LogExit: Preparing to exit.
-[2020.05.22-01.46.57:377][385]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2020.05.22-01.46.57:695][385]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
-[2020.05.22-01.46.57:697][385]LogExit: Editor shut down
-[2020.05.22-01.46.57:698][385]LogExit: Transaction tracking system shut down
-[2020.05.22-01.46.57:708][385]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.05.22-01.46.59:296][385]LogExit: Object subsystem successfully closed.
-[2020.05.22-01.46.59:856][385]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.05.22-01.47.00:478][385]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (728)
-[2020.05.22-01.47.00:478][385]LogModuleManager: Shutting down and abandoning module Voice (726)
-[2020.05.22-01.47.00:478][385]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (724)
-[2020.05.22-01.47.00:478][385]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (722)
-[2020.05.22-01.47.00:478][385]LogModuleManager: Shutting down and abandoning module SceneOutliner (720)
-[2020.05.22-01.47.00:478][385]LogModuleManager: Shutting down and abandoning module AddContentDialog (718)
-[2020.05.22-01.47.00:495][385]LogModuleManager: Shutting down and abandoning module WidgetCarousel (717)
-[2020.05.22-01.47.00:495][385]LogModuleManager: Shutting down and abandoning module EditorWidgets (714)
-[2020.05.22-01.47.00:495][385]LogModuleManager: Shutting down and abandoning module CollectionManager (712)
-[2020.05.22-01.47.00:496][385]LogModuleManager: Shutting down and abandoning module MeshBuilder (710)
-[2020.05.22-01.47.00:496][385]LogModuleManager: Shutting down and abandoning module StatsViewer (708)
-[2020.05.22-01.47.00:510][385]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (706)
-[2020.05.22-01.47.00:510][385]LogModuleManager: Shutting down and abandoning module FoliageEdit (704)
-[2020.05.22-01.47.00:510][385]LogModuleManager: Shutting down and abandoning module LandscapeEditor (702)
-[2020.05.22-01.47.00:535][385]LogModuleManager: Shutting down and abandoning module MeshPaintMode (700)
-[2020.05.22-01.47.00:535][385]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (698)
-[2020.05.22-01.47.00:535][385]LogModuleManager: Shutting down and abandoning module ActorPickerMode (696)
-[2020.05.22-01.47.00:535][385]LogModuleManager: Shutting down and abandoning module GeometryMode (694)
-[2020.05.22-01.47.00:535][385]LogModuleManager: Shutting down and abandoning module TextureAlignMode (692)
-[2020.05.22-01.47.00:535][385]LogModuleManager: Shutting down and abandoning module BspMode (690)
-[2020.05.22-01.47.00:535][385]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (688)
-[2020.05.22-01.47.00:536][385]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (686)
-[2020.05.22-01.47.00:536][385]LogModuleManager: Shutting down and abandoning module AutomationWorker (684)
-[2020.05.22-01.47.00:536][385]LogModuleManager: Shutting down and abandoning module SteamVREditor (682)
-[2020.05.22-01.47.00:536][385]LogModuleManager: Shutting down and abandoning module OculusMR (680)
-[2020.05.22-01.47.00:536][385]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (678)
-[2020.05.22-01.47.00:536][385]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (676)
-[2020.05.22-01.47.00:536][385]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (674)
-[2020.05.22-01.47.00:570][385]LogModuleManager: Shutting down and abandoning module PlacementMode (673)
-[2020.05.22-01.47.00:570][385]LogModuleManager: Shutting down and abandoning module MaterialEditor (672)
-[2020.05.22-01.47.00:605][385]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (668)
-[2020.05.22-01.47.00:625][385]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (666)
-[2020.05.22-01.47.00:626][385]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (664)
-[2020.05.22-01.47.00:626][385]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (662)
-[2020.05.22-01.47.00:626][385]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (660)
-[2020.05.22-01.47.00:626][385]LogModuleManager: Shutting down and abandoning module WebMMedia (658)
-[2020.05.22-01.47.00:626][385]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (656)
-[2020.05.22-01.47.00:626][385]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (654)
-[2020.05.22-01.47.00:646][385]LogModuleManager: Shutting down and abandoning module SequenceRecorder (653)
-[2020.05.22-01.47.00:646][385]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (650)
-[2020.05.22-01.47.00:646][385]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (648)
-[2020.05.22-01.47.00:646][385]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (646)
-[2020.05.22-01.47.00:646][385]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (644)
-[2020.05.22-01.47.00:646][385]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (642)
-[2020.05.22-01.47.00:646][385]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (640)
-[2020.05.22-01.47.00:646][385]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (638)
-[2020.05.22-01.47.00:647][385]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (636)
-[2020.05.22-01.47.00:647][385]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (634)
-[2020.05.22-01.47.00:647][385]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (632)
-[2020.05.22-01.47.00:648][385]LogModuleManager: Shutting down and abandoning module CharacterAI (630)
-[2020.05.22-01.47.00:648][385]LogModuleManager: Shutting down and abandoning module SmartSnapping (628)
-[2020.05.22-01.47.00:648][385]LogModuleManager: Shutting down and abandoning module SessionServices (626)
-[2020.05.22-01.47.00:648][385]LogModuleManager: Shutting down and abandoning module MeshPaint (624)
-[2020.05.22-01.47.00:701][385]LogModuleManager: Shutting down and abandoning module ViewportSnapping (622)
-[2020.05.22-01.47.00:701][385]LogModuleManager: Shutting down and abandoning module ViewportInteraction (620)
-[2020.05.22-01.47.00:701][385]LogModuleManager: Shutting down and abandoning module ClothPainter (618)
-[2020.05.22-01.47.00:702][385]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (617)
-[2020.05.22-01.47.00:702][385]LogModuleManager: Shutting down and abandoning module LogVisualizer (614)
-[2020.05.22-01.47.00:717][385]LogModuleManager: Shutting down and abandoning module IntroTutorials (612)
-[2020.05.22-01.47.00:730][385]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (611)
-[2020.05.22-01.47.00:739][385]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (608)
-[2020.05.22-01.47.00:739][385]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (606)
-[2020.05.22-01.47.00:739][385]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (604)
-[2020.05.22-01.47.00:739][385]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (603)
-[2020.05.22-01.47.01:059][385]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (600)
-[2020.05.22-01.47.01:059][385]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (598)
-[2020.05.22-01.47.01:059][385]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (596)
-[2020.05.22-01.47.01:059][385]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (594)
-[2020.05.22-01.47.01:060][385]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (592)
-[2020.05.22-01.47.01:060][385]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (590)
-[2020.05.22-01.47.01:060][385]LogModuleManager: Shutting down and abandoning module InputBindingEditor (588)
-[2020.05.22-01.47.01:060][385]LogModuleManager: Shutting down and abandoning module MergeActors (586)
-[2020.05.22-01.47.01:077][385]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (584)
-[2020.05.22-01.47.01:077][385]LogModuleManager: Shutting down and abandoning module LocalizationService (583)
-[2020.05.22-01.47.01:078][385]LogModuleManager: Shutting down and abandoning module HardwareTargeting (580)
-[2020.05.22-01.47.01:078][385]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (578)
-[2020.05.22-01.47.01:078][385]LogModuleManager: Shutting down and abandoning module UndoHistory (576)
-[2020.05.22-01.47.01:078][385]LogModuleManager: Shutting down and abandoning module XmlParser (574)
-[2020.05.22-01.47.01:092][385]LogModuleManager: Shutting down and abandoning module Blutility (572)
-[2020.05.22-01.47.01:092][385]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (570)
-[2020.05.22-01.47.01:093][385]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (569)
-[2020.05.22-01.47.01:093][385]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (566)
-[2020.05.22-01.47.01:094][385]LogModuleManager: Shutting down and abandoning module SettingsEditor (564)
-[2020.05.22-01.47.01:094][385]LogModuleManager: Shutting down and abandoning module ProjectLauncher (562)
-[2020.05.22-01.47.01:117][385]LogModuleManager: Shutting down and abandoning module SessionFrontend (560)
-[2020.05.22-01.47.01:117][385]LogModuleManager: Shutting down and abandoning module ProfilerClient (558)
-[2020.05.22-01.47.01:125][385]LogModuleManager: Shutting down and abandoning module DeviceManager (556)
-[2020.05.22-01.47.01:126][385]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (555)
-[2020.05.22-01.47.01:158][385]LogModuleManager: Shutting down and abandoning module AutomationController (552)
-[2020.05.22-01.47.01:158][385]LogModuleManager: Shutting down and abandoning module AutomationWindow (550)
-[2020.05.22-01.47.01:214][385]LogModuleManager: Shutting down and abandoning module Layers (548)
-[2020.05.22-01.47.01:238][385]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (546)
-[2020.05.22-01.47.01:238][385]LogModuleManager: Shutting down and abandoning module DetailCustomizations (544)
-[2020.05.22-01.47.01:238][385]LogModuleManager: Shutting down and abandoning module PackagesDialog (542)
-[2020.05.22-01.47.01:238][385]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (540)
-[2020.05.22-01.47.01:250][385]LogModuleManager: Shutting down and abandoning module Persona (538)
-[2020.05.22-01.47.01:250][385]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (537)
-[2020.05.22-01.47.01:250][385]LogModuleManager: Shutting down and abandoning module AnimGraph (535)
-[2020.05.22-01.47.01:250][385]LogModuleManager: Shutting down and abandoning module Kismet (532)
-[2020.05.22-01.47.01:251][385]LogModuleManager: Shutting down and abandoning module KismetWidgets (531)
-[2020.05.22-01.47.01:251][385]LogModuleManager: Shutting down and abandoning module GraphEditor (528)
-[2020.05.22-01.47.01:254][385]LogModuleManager: Shutting down and abandoning module StructViewer (526)
-[2020.05.22-01.47.01:254][385]LogModuleManager: Shutting down and abandoning module ClassViewer (524)
-[2020.05.22-01.47.01:254][385]LogModuleManager: Shutting down and abandoning module Toolbox (522)
-[2020.05.22-01.47.01:254][385]LogModuleManager: Shutting down and abandoning module ModuleUI (520)
-[2020.05.22-01.47.01:267][385]LogModuleManager: Shutting down and abandoning module OutputLog (518)
-[2020.05.22-01.47.01:288][385]LogModuleManager: Shutting down and abandoning module GammaUI (516)
-[2020.05.22-01.47.01:288][385]LogModuleManager: Shutting down and abandoning module Documentation (514)
-[2020.05.22-01.47.01:288][385]LogModuleManager: Shutting down and abandoning module ToolMenus (512)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module LiveCoding (510)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module LevelSequence (508)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (506)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module MovieScene (504)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (502)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module LauncherPlatform (500)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module AnalyticsET (498)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module PortalServices (496)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module PortalRpc (494)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module MessagingRpc (492)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (490)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module AIModule (488)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module GameplayDebugger (487)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module AITestSuite (485)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module NavigationSystem (483)
-[2020.05.22-01.47.01:289][385]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (480)
-[2020.05.22-01.47.01:304][385]LogModuleManager: Shutting down and abandoning module ProfilerService (478)
-[2020.05.22-01.47.01:453][385]LogModuleManager: Shutting down and abandoning module TaskGraph (476)
-[2020.05.22-01.47.01:530][385]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (474)
-[2020.05.22-01.47.01:530][385]LogModuleManager: Shutting down and abandoning module SubstanceSource (472)
-[2020.05.22-01.47.01:560][385]LogModuleManager: Shutting down and abandoning module SubstanceEditor (470)
-[2020.05.22-01.47.01:570][385]LogModuleManager: Shutting down and abandoning module ScreenshotTools (468)
-[2020.05.22-01.47.01:570][385]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (466)
-[2020.05.22-01.47.01:570][385]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (464)
-[2020.05.22-01.47.01:570][385]LogModuleManager: Shutting down and abandoning module OculusEditor (462)
-[2020.05.22-01.47.01:570][385]LogModuleManager: Shutting down and abandoning module OculusInput (460)
-[2020.05.22-01.47.01:570][385]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (458)
-[2020.05.22-01.47.01:570][385]LogModuleManager: Shutting down and abandoning module EditableMesh (456)
-[2020.05.22-01.47.01:570][385]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (454)
-[2020.05.22-01.47.01:570][385]LogModuleManager: Shutting down and abandoning module CableComponent (452)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module AudioCapture (450)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (449)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module AssetTags (446)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (444)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (442)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module AppleImageUtils (440)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module AndroidPermission (438)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (436)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (434)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module MediaCompositing (432)
-[2020.05.22-01.47.01:571][385]LogModuleManager: Shutting down and abandoning module ImgMedia (430)
-[2020.05.22-01.47.01:601][385]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (428)
-[2020.05.22-01.47.01:601][385]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (426)
-[2020.05.22-01.47.01:601][385]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (424)
-[2020.05.22-01.47.01:601][385]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (422)
-[2020.05.22-01.47.01:601][385]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (420)
-[2020.05.22-01.47.01:601][385]LogModuleManager: Shutting down and abandoning module BackChannel (418)
-[2020.05.22-01.47.01:601][385]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (416)
-[2020.05.22-01.47.01:601][385]LogModuleManager: Shutting down and abandoning module AutomationUtils (414)
-[2020.05.22-01.47.01:615][385]LogModuleManager: Shutting down and abandoning module AlembicImporter (412)
-[2020.05.22-01.47.01:615][385]LogModuleManager: Shutting down and abandoning module AlembicLibrary (411)
-[2020.05.22-01.47.01:615][385]LogModuleManager: Shutting down and abandoning module GeometryCache (410)
-[2020.05.22-01.47.01:615][385]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (409)
-[2020.05.22-01.47.01:615][385]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (404)
-[2020.05.22-01.47.01:615][385]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (402)
-[2020.05.22-01.47.01:615][385]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (400)
-[2020.05.22-01.47.01:615][385]LogModuleManager: Shutting down and abandoning module PluginBrowser (398)
-[2020.05.22-01.47.01:615][385]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (396)
-[2020.05.22-01.47.01:626][385]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (394)
-[2020.05.22-01.47.01:626][385]LogModuleManager: Shutting down and abandoning module CurveEditorTools (392)
-[2020.05.22-01.47.01:643][385]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (390)
-[2020.05.22-01.47.01:643][385]LogModuleManager: Shutting down and abandoning module CryptoKeys (388)
-[2020.05.22-01.47.01:643][385]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (386)
-[2020.05.22-01.47.01:643][385]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (384)
-[2020.05.22-01.47.01:643][385]LogModuleManager: Shutting down and abandoning module UObjectPlugin (382)
-[2020.05.22-01.47.01:643][385]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (380)
-[2020.05.22-01.47.01:643][385]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (378)
-[2020.05.22-01.47.01:651][385]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (376)
-[2020.05.22-01.47.01:664][385]LogModuleManager: Shutting down and abandoning module GitSourceControl (374)
-[2020.05.22-01.47.01:664][385]LogModuleManager: Shutting down and abandoning module SourceControl (373)
-[2020.05.22-01.47.01:664][385]LogModuleManager: Shutting down and abandoning module MultiUserClientLibrary (370)
-[2020.05.22-01.47.01:664][385]LogModuleManager: Shutting down and abandoning module MultiUserClient (368)
-[2020.05.22-01.47.01:664][385]LogModuleManager: Shutting down and abandoning module ConcertSyncUI (366)
-[2020.05.22-01.47.01:679][385]LogModuleManager: Shutting down and abandoning module ConcertSyncClient (364)
-[2020.05.22-01.47.01:680][385]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (362)
-[2020.05.22-01.47.01:680][385]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (360)
-[2020.05.22-01.47.01:680][385]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (358)
-[2020.05.22-01.47.01:680][385]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (356)
-[2020.05.22-01.47.01:680][385]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (354)
-[2020.05.22-01.47.01:680][385]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (352)
-[2020.05.22-01.47.01:680][385]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (350)
-[2020.05.22-01.47.01:680][385]LogModuleManager: Shutting down and abandoning module Paper2DEditor (348)
-[2020.05.22-01.47.01:686][385]LogModuleManager: Shutting down and abandoning module SignificanceManager (346)
-[2020.05.22-01.47.01:686][385]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (344)
-[2020.05.22-01.47.01:686][385]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (342)
-[2020.05.22-01.47.01:686][385]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (338)
-[2020.05.22-01.47.01:686][385]LogModuleManager: Shutting down and abandoning module SQLiteCore (336)
-[2020.05.22-01.47.01:686][385]LogModuleManager: Shutting down and abandoning module ActorSequence (334)
-[2020.05.22-01.47.01:686][385]LogModuleManager: Shutting down and abandoning module UdpMessaging (332)
-[2020.05.22-01.47.01:788][385]LogModuleManager: Shutting down and abandoning module TcpMessaging (330)
-[2020.05.22-01.47.01:888][385]LogModuleManager: Shutting down and abandoning module SubstanceCore (328)
-[2020.05.22-01.47.01:913][385]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (326)
-[2020.05.22-01.47.01:913][385]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (324)
-[2020.05.22-01.47.01:913][385]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2020.05.22-01.47.01:913][385]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (322)
-[2020.05.22-01.47.01:913][385]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (320)
-[2020.05.22-01.47.01:913][385]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (318)
-[2020.05.22-01.47.01:913][385]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (316)
-[2020.05.22-01.47.01:913][385]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (314)
-[2020.05.22-01.47.01:913][385]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (312)
-[2020.05.22-01.47.01:913][385]LogModuleManager: Shutting down and abandoning module MagicLeapController (310)
-[2020.05.22-01.47.01:913][385]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.05.22-01.47.01:914][385]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (308)
-[2020.05.22-01.47.01:914][385]LogModuleManager: Shutting down and abandoning module MagicLeapAR (306)
-[2020.05.22-01.47.01:914][385]LogModuleManager: Shutting down and abandoning module AugmentedReality (305)
-[2020.05.22-01.47.01:914][385]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (302)
-[2020.05.22-01.47.01:914][385]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (300)
-[2020.05.22-01.47.01:914][385]LogModuleManager: Shutting down and abandoning module FacialAnimation (298)
-[2020.05.22-01.47.01:914][385]LogModuleManager: Shutting down and abandoning module DataValidation (296)
-[2020.05.22-01.47.01:914][385]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (294)
-[2020.05.22-01.47.01:936][385]LogModuleManager: Shutting down and abandoning module LevelEditor (293)
-[2020.05.22-01.47.01:936][385]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (292)
-[2020.05.22-01.47.01:936][385]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (290)
-[2020.05.22-01.47.01:937][385]LogModuleManager: Shutting down and abandoning module MainFrame (288)
-[2020.05.22-01.47.01:937][385]LogModuleManager: Shutting down and abandoning module HotReload (287)
-[2020.05.22-01.47.01:937][385]LogModuleManager: Shutting down and abandoning module ContentBrowser (283)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module TreeMap (281)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module ConcertSyncCore (278)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module Concert (276)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module ConcertTransport (275)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module Paper2D (268)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
-[2020.05.22-01.47.01:939][385]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
-[2020.05.22-01.47.02:025][385]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
-[2020.05.22-01.47.02:026][385]LogModuleManager: Shutting down and abandoning module Overlay (252)
-[2020.05.22-01.47.02:026][385]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
-[2020.05.22-01.47.02:026][385]LogModuleManager: Shutting down and abandoning module VREditor (248)
-[2020.05.22-01.47.02:041][385]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
-[2020.05.22-01.47.02:061][385]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
-[2020.05.22-01.47.02:061][385]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
-[2020.05.22-01.47.02:086][385]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
-[2020.05.22-01.47.02:086][385]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
-[2020.05.22-01.47.02:086][385]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
-[2020.05.22-01.47.02:086][385]LogModuleManager: Shutting down and abandoning module UMG (234)
-[2020.05.22-01.47.02:086][385]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
-[2020.05.22-01.47.02:086][385]LogModuleManager: Shutting down and abandoning module MessageLog (231)
-[2020.05.22-01.47.02:086][385]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module Slate (224)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module SlateCore (222)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module MRMesh (216)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module Networking (208)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module Core (206)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
-[2020.05.22-01.47.02:115][385]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
-[2020.05.22-01.47.02:144][385]LogModuleManager: Shutting down and abandoning module Sequencer (201)
-[2020.05.22-01.47.02:159][385]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2020.05.22-01.47.02:160][385]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
-[2020.05.22-01.47.02:160][385]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
-[2020.05.22-01.47.02:160][385]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
-[2020.05.22-01.47.02:160][385]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
-[2020.05.22-01.47.02:160][385]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
-[2020.05.22-01.47.02:160][385]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
-[2020.05.22-01.47.02:179][385]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
-[2020.05.22-01.47.02:204][385]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
-[2020.05.22-01.47.02:204][385]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
-[2020.05.22-01.47.02:219][385]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
-[2020.05.22-01.47.02:219][385]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
-[2020.05.22-01.47.02:219][385]LogDerivedDataCache: Shutdown
-[2020.05.22-01.47.02:219][385]LogModuleManager: Shutting down and abandoning module XGEController (172)
-[2020.05.22-01.47.02:219][385]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
-[2020.05.22-01.47.02:219][385]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
-[2020.05.22-01.47.02:220][385]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
-[2020.05.22-01.47.02:220][385]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
-[2020.05.22-01.47.02:275][385]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
-[2020.05.22-01.47.02:275][385]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
-[2020.05.22-01.47.02:290][385]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
-[2020.05.22-01.47.02:291][385]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
-[2020.05.22-01.47.02:292][385]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
-[2020.05.22-01.47.02:292][385]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
-[2020.05.22-01.47.02:292][385]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
-[2020.05.22-01.47.02:292][385]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
-[2020.05.22-01.47.02:292][385]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2020.05.22-01.47.02:292][385]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
-[2020.05.22-01.47.02:292][385]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2020.05.22-01.47.02:292][385]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2020.05.22-01.47.02:293][385]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
-[2020.05.22-01.47.02:307][385]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
-[2020.05.22-01.47.02:307][385]LogModuleManager: Shutting down and abandoning module InputCore (106)
-[2020.05.22-01.47.02:307][385]LogModuleManager: Shutting down and abandoning module Settings (104)
-[2020.05.22-01.47.02:307][385]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
-[2020.05.22-01.47.02:308][385]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
-[2020.05.22-01.47.02:308][385]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
-[2020.05.22-01.47.02:318][385]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
-[2020.05.22-01.47.02:318][385]LogModuleManager: Shutting down and abandoning module Chaos (94)
-[2020.05.22-01.47.02:318][385]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
-[2020.05.22-01.47.02:318][385]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
-[2020.05.22-01.47.02:329][385]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
-[2020.05.22-01.47.02:329][385]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
-[2020.05.22-01.47.02:329][385]LogModuleManager: Shutting down and abandoning module SteamVR (84)
-[2020.05.22-01.47.02:329][385]LogHMD: Freeing OpenVRDLLHandle.
-[2020.05.22-01.47.02:329][385]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
-[2020.05.22-01.47.02:329][385]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
-[2020.05.22-01.47.02:329][385]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
-[2020.05.22-01.47.02:329][385]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
-[2020.05.22-01.47.02:329][385]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
-[2020.05.22-01.47.02:331][385]LogModuleManager: Shutting down and abandoning module XMPP (67)
-[2020.05.22-01.47.02:331][385]LogModuleManager: Shutting down and abandoning module WebSockets (66)
-[2020.05.22-01.47.02:365][385]LogModuleManager: Shutting down and abandoning module HTTP (63)
-[2020.05.22-01.47.02:365][385]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.05.22-01.47.02:365][385]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B667A6A16-4743-9792-8DC4-6090A67F8181%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=c0aef3494e8f3945f0bbbcb5c2c811fc%7C2e503461e6b046cd9cf4483e072ebd45%7Ccf6f36d5-9f2b-4331-8fa8-1cd23b83d356&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
-[2020.05.22-01.47.02:392][385]LogModuleManager: Shutting down and abandoning module SSL (62)
-[2020.05.22-01.47.02:396][385]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
-[2020.05.22-01.47.02:429][385]LogModuleManager: Shutting down and abandoning module Media (57)
-[2020.05.22-01.47.02:434][385]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
-[2020.05.22-01.47.02:434][385]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2020.05.22-01.47.02:434][385]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2020.05.22-01.47.02:435][385]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2020.05.22-01.47.02:435][385]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2020.05.22-01.47.02:435][385]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2020.05.22-01.47.02:435][385]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2020.05.22-01.47.02:435][385]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.05.22-01.47.02:435][385]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.05.22-01.47.02:454][385]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.05.22-01.47.02:454][385]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.05.22-01.47.02:464][385]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.05.22-01.47.02:465][385]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.05.22-01.47.02:465][385]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.05.22-01.47.02:465][385]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.05.22-01.47.02:466][385]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.05.22-01.47.02:475][385]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.05.22-01.47.02:475][385]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.05.22-01.47.02:475][385]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.05.22-01.47.02:475][385]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.05.22-01.47.02:475][385]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.05.22-01.47.02:475][385]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.05.22-01.47.02:475][385]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.05.22-01.47.02:475][385]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.05.22-01.47.02:555][385]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.05.22-01.47.02:586][385]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.05.22-01.47.02:586][385]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.05.22-01.47.02:587][385]LogD3D11RHI: Shutdown
-[2020.05.22-01.47.02:587][385]LogD3D11RHI: CleanupD3DDevice
-[2020.05.22-01.47.02:653][385]LogExit: Exiting.
-[2020.05.22-01.47.02:697][385]Log file closed, 05/21/20 20:47:02
+[2020.05.22-22.56.13:008][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.22-22.56.13:009][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.22-22.56.13:048][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
+[2020.05.22-22.56.13:048][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.22-22.56.13:048][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
+[2020.05.22-22.56.13:048][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
+[2020.05.22-22.56.13:048][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.22-22.56.13:048][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.22-22.56.13:048][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.22-22.56.13:048][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.22-22.56.13:048][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.22-22.56.13:048][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.22-22.56.13:048][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.22-22.56.13:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
+[2020.05.22-22.56.13:050][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
+[2020.05.22-22.56.13:350][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:350][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.22-22.56.13:350][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.22-22.56.13:350][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:350][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.22-22.56.13:350][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:350][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.22-22.56.13:350][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.22-22.56.13:350][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.22-22.56.13:351][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.22-22.56.13:352][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.22-22.56.13:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.22-22.56.13:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.22-22.56.13:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.22-22.56.13:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.22-22.56.13:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.22-22.56.13:354][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:354][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.22-22.56.13:354][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.22-22.56.13:354][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:354][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.22-22.56.13:354][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.22-22.56.13:354][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.22-22.56.13:368][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.22-22.56.13:368][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.22-22.56.13:541][  0]LogHAL: Display: Platform has ~ 24 GB [25440763904 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.22-22.56.13:541][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.22-22.56.13:550][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:550][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.22-22.56.13:550][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2020.05.22-22.56.13:550][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:550][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.05.22-22.56.13:550][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:550][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.22-22.56.13:550][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.22-22.56.13:550][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.05.22-22.56.13:550][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.05.22-22.56.13:550][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.22-22.56.13:551][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2020.05.22-22.56.13:552][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:552][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SSGI.Quality:2]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.22-22.56.13:553][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Scalability.ini]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.22-22.56.13:554][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.22-22.56.13:568][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.22-22.56.13:568][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.22-22.56.13:568][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Config/Windows/Engine.ini]
+[2020.05.22-22.56.13:749][  0]LogInit: Computer: WOLFGANG
+[2020.05.22-22.56.13:749][  0]LogInit: User: YanVillalobos
+[2020.05.22-22.56.13:749][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.22-22.56.13:749][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.22-22.56.13:749][  0]LogMemory: Memory total: Physical=23.7GB (24GB approx)
+[2020.05.22-22.56.13:749][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.22-22.56.13:750][  0]LogMemory: Process Physical Memory: 105.66 MB used, 105.67 MB peak
+[2020.05.22-22.56.13:750][  0]LogMemory: Process Virtual Memory: 100.61 MB used, 100.61 MB peak
+[2020.05.22-22.56.13:750][  0]LogMemory: Physical Memory: 7364.46 MB used,  16897.74 MB free, 24262.20 MB total
+[2020.05.22-22.56.13:750][  0]LogMemory: Virtual Memory: 5138.60 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.05.22-22.56.13:839][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.22-22.56.16:447][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.05.22-22.56.16:447][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2020.05.22-22.56.16:447][  0]LogInit: Using OS detected locale (es-MX).
+[2020.05.22-22.56.18:622][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.22-22.56.21:330][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.22-22.56.21:330][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.22-22.56.47:570][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.05.22-22.56.47:570][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.22-22.56.47:570][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.22-22.56.47:570][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.22-22.56.47:903][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.05.22-22.56.47:903][  0]LogD3D11RHI:       4055/0/12131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.05.22-22.56.48:106][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.05.22-22.56.48:106][  0]LogD3D11RHI:       128/0/12131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.05.22-22.56.48:113][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.22-22.56.48:113][  0]LogD3D11RHI:       0/0/12131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.22-22.56.48:113][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.22-22.56.48:797][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.22-22.56.49:014][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.05.22-22.56.49:014][  0]LogWindows: EnumDisplayDevices:
+[2020.05.22-22.56.49:014][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.05.22-22.56.49:016][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.05.22-22.56.49:017][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.05.22-22.56.49:018][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.05.22-22.56.49:018][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.05.22-22.56.49:018][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.05.22-22.56.49:018][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.05.22-22.56.49:018][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.05.22-22.56.49:837][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.05.22-22.56.49:890][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.22-22.56.50:476][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.05.22-22.56.55:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.22-22.56.57:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.22-22.56.57:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.22-22.56.57:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.22-22.56.57:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.22-22.56.57:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.22-22.56.57:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.22-22.56.57:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.22-22.56.57:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.22-22.57.00:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.22-22.57.00:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.22-22.57.01:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.22-22.57.01:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.22-22.57.01:597][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.22-22.57.01:632][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.22-22.57.01:662][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.22-22.57.01:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.22-22.57.02:155][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.22-22.57.02:155][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.22-22.57.02:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.22-22.57.02:438][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.22-22.57.02:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.22-22.57.02:952][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.22-22.57.03:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.22-22.57.03:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.22-22.57.03:215][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.22-22.57.04:530][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.22-22.57.08:190][  0]LogShaderCompilers: Guid format shader working directory is -73 characters bigger than the processId version (../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Intermediate/Shaders/WorkingDirectory/1056/).
+[2020.05.22-22.57.08:191][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/temptest/UnrealShaderWorkingDir/1C673C7A4FDE1BF8C25A349D1E206CCC/'.
+[2020.05.22-22.57.08:338][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.22-22.57.08:339][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.22-22.57.08:339][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.22-22.57.52:894][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.22-22.57.53:453][  0]LogDerivedDataCache: Loaded boot cache 0.55s 78MB C:/Users/Yan Villalobos/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.22-22.57.53:453][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yan Villalobos/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.22-22.57.53:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.22-22.57.53:453][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.22-22.57.53:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.22-22.57.53:453][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.22-22.57.53:543][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.22-22.57.53:543][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.22-22.57.53:543][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.22-22.57.53:552][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yan Villalobos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.22-22.57.53:552][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.22-22.57.53:552][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.22-22.57.53:808][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.22-22.57.54:215][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.22-22.57.54:585][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.22-22.57.57:944][  0]LogAssetRegistry: FAssetRegistry took 0.0159 seconds to start up
+[2020.05.22-22.58.16:556][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.22-22.58.21:122][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.22-22.58.21:122][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.22-22.58.21:122][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.22-22.58.21:122][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.22-22.58.21:123][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.22-22.58.24:294][  0]LogNetVersion: DAROOM 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2238005089)
+[2020.05.22-22.59.38:446][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.222649 seconds
+[2020.05.22-22.59.38:735][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.22-22.59.38:735][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.22-22.59.38:735][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.22-23.00.03:171][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2020.05.22-23.00.03:565][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.22-23.00.03:642][  0]LogUdpMessaging: Warning: Invalid UDP Messaging Static Endpoint '246-008-323:6666'
+[2020.05.22-23.00.03:642][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.22-23.00.06:858][  0]SourceControl: Source control is disabled
+[2020.05.22-23.00.24:015][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.22-23.00.24:841][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.22-23.00.24:841][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.22-23.00.28:072][  0]LogOcInput: OculusInput pre-init called
+[2020.05.22-23.00.28:615][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.22-23.00.28:615][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.22-23.00.34:018][  0]LogEngine: Initializing Engine...
+[2020.05.22-23.00.34:501][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.05.22-23.00.34:830][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.205 s
+[2020.05.22-23.00.37:754][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.22-23.00.39:014][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.22-23.00.39:756][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.22-23.00.39:756][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.22-23.00.39:756][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.22-23.00.39:756][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.22-23.00.39:756][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.22-23.00.39:756][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.22-23.00.39:756][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.22-23.00.39:756][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.22-23.00.39:766][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.22-23.00.39:766][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.22-23.00.40:747][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.22-23.00.40:747][  0]LogAudioMixer: Display: Name: Altavoces / Auriculares (2- Realtek Audio)
+[2020.05.22-23.00.40:747][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.22-23.00.40:747][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.22-23.00.40:747][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.22-23.00.40:747][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.22-23.00.40:747][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.22-23.00.40:747][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.22-23.00.40:747][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.22-23.00.41:221][  0]LogAudioMixer: Display: Using Audio Device Altavoces / Auriculares (2- Realtek Audio)
+[2020.05.22-23.00.41:230][  0]LogInit: FAudioDevice initialized.
+[2020.05.22-23.00.41:230][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.22-23.00.41:233][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/Yan Villalobos/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.22-23.00.41:235][  0]LogInit: Texture streaming: Enabled
+[2020.05.22-23.00.41:733][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.22-23.00.41:733][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.22-23.00.41:747][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.22-23.00.45:302][  0]LogInit: Transaction tracking system initialized
+[2020.05.22-23.00.47:999][  0]BlueprintLog: New page: Editor Load
+[2020.05.22-23.00.56:743][  0]LocalizationService: Localization service is disabled
+[2020.05.22-23.01.14:967][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/' took 0.02s
+[2020.05.22-23.01.14:967][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.22-23.01.14:968][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.22-23.01.43:781][  0]Cmd: MAP LOAD FILE="../../../../../../Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/ThirdPersonBP/Maps/DAROOM.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.22-23.01.43:936][  0]LightingResults: New page: Lighting Build
+[2020.05.22-23.01.44:765][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.22-23.01.44:796][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.22-23.01.44:802][  0]MapCheck: New page: Map Check
+[2020.05.22-23.01.44:802][  0]LightingResults: New page: Lighting Build
+[2020.05.22-23.01.45:523][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.05.22-23.02.06:709][  0]LogStaticMesh: Building static mesh Bed_1_4_Respaldo...
+[2020.05.22-23.02.07:285][  0]LogStaticMesh: Built static mesh [0.58s] /Game/ContenidoRecamara/Cama/Bed_1_4_Respaldo.Bed_1_4_Respaldo
+[2020.05.22-23.02.07:503][  0]LogStaticMesh: Building static mesh Bed_1_4_Pa_pies...
+[2020.05.22-23.02.08:230][  0]LogStaticMesh: Built static mesh [0.73s] /Game/ContenidoRecamara/Cama/Bed_1_4_Pa_pies.Bed_1_4_Pa_pies
+[2020.05.22-23.02.08:384][  0]LogStaticMesh: Building static mesh Bed_1_4_Colchon...
+[2020.05.22-23.02.08:714][  0]LogStaticMesh: Built static mesh [0.33s] /Game/ContenidoRecamara/Cama/Bed_1_4_Colchon.Bed_1_4_Colchon
+[2020.05.22-23.02.09:547][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:547][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:548][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_116' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:548][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_118' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:548][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_119' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:548][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:548][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_121' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_122' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_124' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_125' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_126' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_127' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_128' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_129' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:549][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/Pistol/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_Root_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:651][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_10' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_12' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_13' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_14' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_15' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_16' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_17' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:652][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:653][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:653][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:653][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_6' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:653][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_7' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:653][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:653][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:654][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:654][  0]LogBlueprint: Warning: Node '/Game/PrototypeWeap/Sound/SniperRifle/SR_Fire_Cue.SR_Fire_Cue:SoundCueGraph_69.SoundCueGraphNode_Root_69' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2020.05.22-23.02.09:686][  0]LogAIModule: Creating AISystem for world DAROOM
+[2020.05.22-23.02.10:327][  0]LogChildActorComponent: Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.Cama_6.Cama'.  Not spawning Actor of class 'Cama_C' to break.
+[2020.05.22-23.02.10:580][  0]LogChildActorComponent: Error: Found cycle in child actor component '/Game/ThirdPersonBP/Maps/DAROOM.DAROOM:PersistentLevel.Cama_6.Cama'.  Not spawning Actor of class 'Cama_C' to break.
+[2020.05.22-23.02.11:021][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.22-23.02.11:393][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2020.05.22-23.02.11:395][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.22-23.02.11:395][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.144ms to complete.
+[2020.05.22-23.02.11:395][  0]LogFileHelpers: Loading map 'DAROOM' took 27.737
+[2020.05.22-23.02.11:429][  0]LogAssetRegistry: Flushing asset discovery search because of synchronous request, this can take several seconds...
+[2020.05.22-23.02.14:029][  0]LogAssetRegistry: Asset discovery search completed in 2.6000 seconds
+[2020.05.22-23.02.14:081][  0]LogCollectionManager: Loaded 0 collections in 0.004024 seconds
+[2020.05.22-23.02.14:126][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Saved/Collections/' took 0.01s
+[2020.05.22-23.02.14:126][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/Developers/YanVillalobos/Collections/' took 0.03s
+[2020.05.22-23.02.14:126][  0]LogFileCache: Scanning file cache for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/Collections/' took 0.00s
+[2020.05.22-23.02.14:126][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2020.05.22-23.02.17:772][  0]LogContentBrowser: Native class hierarchy populated in 0.0300 seconds. Added 3035 classes and 741 folders.
+[2020.05.22-23.02.18:351][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2020.05.22-23.02.28:938][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2020.05.22-23.02.31:199][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-23.02.31:244][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-23.02.31:267][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-23.02.31:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.22-23.02.31:971][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.05.22-23.02.47:641][  0]LogSlate: Took 3.204112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.22-23.02.47:666][  0]LogSlate: Took 0.010296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.22-23.02.47:786][  0]LogSlate: Took 0.105984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.22-23.02.48:865][  0]LogRenderer: Reallocating scene render targets to support 892x744 Format 9 NumSamples 1 (Frame:1).
+[2020.05.22-23.02.52:711][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.05.22-23.02.52:711][  0]LogLoad: (Engine Initialization) Total time: 411.56 seconds
+[2020.05.22-23.02.52:711][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.22-23.02.53:460][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.05.22-23.02.53:870][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2020.05.22-23.02.54:017][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Escritorio/6 Semestre/diseño web/unigithub/Wolfgang/DAROOM/DAROOM/DAROOM/DAROOM/Content/' took 0.91s
+[2020.05.22-23.41.25:584][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.05.22-23.41.25:782][906]LogSlate: Window 'DAROOM - Unreal Editor' being destroyed
+[2020.05.22-23.41.25:808][906]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.22-23.41.26:311][907]Cmd: QUIT_EDITOR
+[2020.05.22-23.41.26:312][907]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.05.22-23.41.26:377][907]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.22-23.41.26:389][907]LogAudioMixer: Display: No commands were queued while flushing the source manager.
